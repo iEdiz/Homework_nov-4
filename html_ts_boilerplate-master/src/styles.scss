@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
 body {
   background-color: antiquewhite;
+  font-family: 'Inter', sans-serif;
 }
 
 .wrapper {
@@ -8,7 +11,7 @@ body {
 }
 
 .labels-wrapper {
-  width: 428px;
+  width: 364px;
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -113,3 +116,285 @@ input:checked + .slider:before {
   color: #484848;
 }
 
+.button-wrapper {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.button {
+  padding: 12px 48px;
+  align-self: stretch;
+  margin: 32px 0;
+  border-radius: 5px;
+  background-color: rgba(101, 31, 255, 1);
+  color: White ;
+  border: none;
+  transition: 0.4s;
+
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+.link {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 0 32px 0;
+}
+
+.continue {
+  margin: 32px 0 16px 0;
+  text-align: center;
+}
+
+.continue-text {
+  color: rgba(90, 87, 97, 1);
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.socials {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  align-items: center;
+}
+
+.button-socials {
+  padding: 12px 48px;
+  border-radius: 5px;
+  border: 1px solid #ECECEE;
+  background: #FFF;
+  flex-basis: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 500px) {
+  .labels-wrapper {
+    width: 311px;
+  }
+}
+
+.form2-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.background2 {
+  margin: 20px 0 0 0;
+  padding: 32px;
+  border-radius: 10px;
+  box-shadow: 40px 40px 60px 0px rgba(0, 0, 0, 0.10);
+  background-color: #FFF;
+}
+
+.labels-wrapper2 {
+  width: 601px;
+}
+
+.contacts-wrapper {
+  display: flex;
+  align-items: flex-start;
+}
+
+.contacts {
+  align-self: stretch;
+  margin: 0 0 32px 0;
+}
+
+.labels2 {
+  display: flex;
+  gap: 30px;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.label__password2 {
+  flex-basis: calc(50% - 16px);
+}
+
+.label__text2 {
+  flex-basis: calc(50% - 16px);
+}
+
+.subscribe-checkbox {
+  display: flex;
+  gap: 4px;
+  margin: 16px 0 0 0;
+}
+
+.checkbox-box {
+  width: 20px;
+  height: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #FD7918;
+}
+
+.checkbox-text {
+  color: rgba(72, 72, 72, 1);
+  font-size: 14px;
+  font-weight: 400;
+  align-self: center;
+}
+
+.description {
+  display: flex;
+  flex-direction: column;
+  margin: 16px 0 0 0;
+  gap: 10px;
+}
+
+.description-box {
+  height: 152px;
+  max-width: 600px;
+  padding: 8px 14px 8px 12px;
+  background-color: rgba(243, 243, 245, 1);
+  border-radius: 5px;
+  border: none;
+  align-self: center;
+  align-self: stretch;
+}
+
+.description-label {
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 400;
+}
+
+.submit-button {
+  margin: 32px 0 0 0;
+  padding: 12px 48px;
+  border-radius: 5px;
+  background-color: rgba(101, 31, 255, 1);
+  border: none;
+  color: rgba(255, 255, 255, 1);
+}
+
+.button-wrapper2 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+@media only screen and (max-width: 700px) {
+  .labels-wrapper2 {
+    width: 279px;
+  }
+  .labels2 {
+    flex-direction: column;
+  }
+}
+
+.form3-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.background3 {
+  margin: 20px 0 32px 0;
+  padding: 0px 16px 0 0;
+  border-radius: 10px;
+  box-shadow: 40px 40px 60px 0px rgba(0, 0, 0, 0.10);
+  background-color: #FFF;
+}
+
+.contacts-full {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.contact-info {
+  padding: 46px 16px 32px 16px;
+  width: 216px;
+  height: 694px;
+  background: rgba(101, 31, 255, 1);
+  border-radius: 10px 0 0 10px;
+}
+
+.information__contacts {
+  align-self: stretch;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 16px;
+  display: block;
+  margin: 0px 0 32px 0;
+  flex: 1 0;
+}
+
+.information__below {
+  align-self: stretch;
+  color: rgba(255, 255, 255, 1);
+  font-weight: 400;
+  font-size: 15px;
+  display: inline-block;
+  margin: 0 0 0px 0;
+}
+
+.phone-image {
+  display: inline-block;
+  align-self: center;
+  margin: 0 8px 0 0;
+}
+
+.information-box {
+  display: flex;
+  align-items: center;
+  margin: 0 0 16px 0;
+}
+
+.label__password3 {
+  flex-basis: 100%;
+}
+
+.labels-wrapper3 {
+  width: 400px;
+}
+
+.labels3 {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.input-text3 {
+  width: 100%;
+  max-width: 400px;
+  padding: 12px 14px 12px 12px;
+  background-color: #FAFAFA;
+  border: none;
+  border-radius: 5px;
+}
+
+.description-box2 {
+  height: 152px;
+  max-width: 400px;
+  max-height: 152px;
+  padding: 8px 14px 8px 12px;
+  background-color: rgba(243, 243, 245, 1);
+  border-radius: 5px;
+  border: none;
+  align-self: center;
+  align-self: stretch;
+}
+
+@media only screen and (max-width: 700px) {
+  .contact-info {
+    display: none;
+    visibility: hidden;
+  }
+  .labels3 {
+    flex-direction: column;
+  }
+  .background3 {
+    padding: 32px;
+  }
+  .labels-wrapper3 {
+    width: 279px;
+  }
+}

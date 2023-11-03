@@ -84,8 +84,11 @@
                             </div>
                         </div>
                         <div class="subscribe-checkbox">
-                            <input type="checkbox" name="subscribe2" id="subscribe2" class="checkbox-box">
-                            <label for="subscribe2" class="checkbox-text">Subscribe to News</label>
+                            <label for="subscribe2" class="checkbox-text">
+                                <input type="checkbox" name="subscribe2" id="subscribe2" class="checkbox-box">
+                                <div class="checkbox-style"></div>
+                                 <span class="subscribe-to-news">Subscribe to News</span>
+                            </label>
                         </div>
                         <div class="description">
                             <label for="description1" class="description-label">Message</label>
@@ -223,9 +226,14 @@
                     </div>
                 </form>
             </div>
-        </div>
+        </div> 
     </section>
     </section>
+    <label class="custom-checkbox">
+        <input type="checkbox" class="hidden-checkbox">
+        <div class="checkbox-style"></div>
+        Checkbox with Orange Background
+    </label>
     <script src="/scripts.js"></script>
 </body>
 </html>
